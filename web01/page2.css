@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+
+.p2_wrap {
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 40px;
+}
+
+
+.page2 {
+    clear: both;
+    width: 1280px;
+}
+
+.page2>h3 {
+    text-align: center;
+    font-family: 'Hansuwon';
+    font-size: 80px;
+    font-weight: 700;
+    margin: 100px;
+}
+
+.gird1 {
+    display: flex;
+    width: 100%;
+    height: auto;
+
+}
+
+.row1 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row1 li {
+    position: relative;
+    display: block;
+    width: 45%;
+    overflow: hidden;
+    border-radius: 18px;
+}
+
+.grid1 img {
+    border-radius: 18px;
+    width: 100%;
+    height: 100%;
+    filter: brightness(50%);
+    transition: 0.3s;
+}
+
+.grid1 img:hover {
+    
+    filter: brightness(100%);
+}
+
+.row1 a {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.row1 p {
+    position: absolute;
+    color: #fff;
+    font-family: 'Hansuwon';
+}
+
+.row1 .tit {
+    font-weight: 600;
+    font-size: 30px;
+    top: 70px;
+    right: 30px;
+
+}
+.row1 .sub {
+    font-size: 18px;
+    top: 30px;
+    right: 30px;
+}
+
+.row2 {
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.row2 li {
+    position: relative;
+    display: block;
+    width: 18%;
+}
+
+.row2 a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 30px;
+    right: 30px;
+}
+
+.row2 img {
+    border-radius: 18px;
+    width: 100%;
+    height: 100%;
+    filter: brightness(50%);
+}
+
+.row2 p {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Hansuwon';
+    font-size: 24px;
+}

@@ -1,0 +1,280 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: 'Hansuwon', sans-serif;
+    font-weight: 700;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.wrap {
+    width: 100%;
+    min-width: 320px;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.page2,
+.page3,
+.page4 {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.hd_menu::before {
+    content: "";
+    display: block;
+    width: 100vw;
+    height: 0px;
+    overflow-y: hidden;
+    background-color: #fff;
+    position: absolute;
+    border-bottom: 1px solid #ececec;
+    top: 100px;
+    left: 0;
+    z-index: 10;
+    transition: 0.6s;
+}
+
+.hd {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.hd_logo {
+    flex-grow: 1;
+}
+
+.hd_menu {
+    flex-grow: 10;
+    display: flex;
+}
+
+.hd_menu_side {
+    flex-grow: 1;
+}
+
+.hd_menu_a {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.hd_menu>ul {
+    display: flex;
+    width: 100%;
+    /*gap: 128px;*/
+}
+
+.hd_menu>ul>li {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+
+.hd_menu_div {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    border-bottom: 5px solid #154193;
+    transform: scaleX(0);
+    transition: 0.6s;
+    z-index: 11;
+}
+
+.hd_menu>ul>li:hover .hd_menu_div {
+    transform: scaleX(1);
+}
+
+.hd_ul_sub {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    background-color: #fff;
+    height: 0px;
+    width: 100%;
+    overflow-y: hidden;
+    z-index: 9;
+    transition: 0.6s;
+}
+
+.hd_ul_sub li {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.hd_ul_sub a {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+}
+
+.hd_menu>ul>li:hover .hd_ul_sub {
+    height: 200px;
+}
+
+.hd_menu::before {
+    position: absolute;
+    content: "";
+    display: block;
+    border-bottom: 2px solid #154193;
+    width: 100vw;
+    height: 0px;
+    top: 100px;
+    left: 0px;
+    background-color: #fff;
+    transition: 0.6s;
+    z-index: 9;
+}
+
+.hd_menu:hover::before {
+    height: 200px;
+}
+
+.hd_ul_side {
+    display: flex;
+    flex-direction: column;
+}
+
+#ft {
+    clear: both;
+    background-image: url(./image/footer/background.png);
+    background-repeat: repeat-x;
+}
+
+.footer_menu {
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    border-right: 1px solid #fff;
+    font-family: 'Hansuwon_h';
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer_menu>li {
+    position: relative;
+    width: 100%;
+    height: 64px;
+    text-align: center;
+    line-height: 64px;
+    border-left: 1px solid #fff;
+}
+
+.footer_menu label {
+    cursor: pointer;
+}
+
+
+#footer_menu_1,
+#footer_menu_2,
+#footer_menu_3,
+#footer_menu_4 {
+    display: none;
+}
+
+.footer_menu_sub {
+    display: none;
+
+}
+
+.footer_menu_sub a {
+    display: block;
+    height: 64px;
+    line-height: 64px;
+}
+
+input[type=radio]~.footer_menu_sub {
+    transition: 0.8s;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    line-height: 40px;
+    bottom: 64px;
+    z-index: 10;
+    height: 0;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #333;
+}
+
+#footer_menu_1:checked~#footer_menu_sub_1 {
+    display: block;
+    height: 256px;
+}
+
+#footer_menu_2:checked~#footer_menu_sub_2 {
+    display: block;
+    height: 256px;
+}
+
+#footer_menu_3:checked~#footer_menu_sub_3 {
+    display: block;
+    height: 256px;
+}
+
+#footer_menu_4:checked~#footer_menu_sub_4 {
+    display: block;
+    height: 256px;
+}
+
+.footer_banner {
+    clear: both;
+    display: flex;
+    align-items: center;
+}
+
+.footer_banner a {
+    display: block;
+}
+
+.footer_banner img {
+    padding: 18px;
+    max-height: 64px;
+    margin-right: 32px;
+}
+
+.footer_txt_ul {
+    clear: both;
+    display: flex;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.footer_txt_ul a {
+    font-family: 'Hansuwon_h';
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 32px;
+    color: navy;
+}
+
+.footer_txt_copy {
+    font-family: 'Hansuwon_h';
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: 400;
+}

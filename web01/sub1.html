@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>수원 문화 관광</title>
+    <!-- 메타포 : 바로 가기 아이콘 , 홈페이지 제목, 검색어, 설명 -->
+    <!-- 오픈 그래프 -->
+    <!-- 폰트, 초기화(reset.css), 아이콘 셋 -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="font1.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="page1.css">
+    <link rel="stylesheet" href="page2.css">
+    <link rel="stylesheet" href="page3.css">
+    <link rel="stylesheet" href="page4.css">
+    <style>
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Hansuwon', sans-serif;
+            line-height: 1.6;
+            padding-top: 0.6em;
+            padding-bottom: 0.6em;
+        }
+
+        h1 {
+            font-weight: 900;
+            font-size: 72px;
+        }
+
+        h2 {
+            font-weight: 800;
+            font-size: 60px;
+        }
+
+        h3 {
+            font-weight: 700;
+            font-size: 48px;
+        }
+
+        h4 {
+            font-weight: 600;
+            font-size: 36px;
+        }
+
+        h5 {
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        h6 {
+            font-weight: 400;
+            font-size: 12px;
+        }
+
+        p {
+            font-family: 'Hansuwon', sans-serif;
+            font-weight: 400;
+        }
+
+        p.bold {
+            font-weight: 700;
+        }
+
+        p.r {
+            font-weight: 400;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="wrap">
+            <div class="container">
+                <div class="hd">
+                    <a class="hd_logo" href="">
+                        <img src="./image/logo.png" alt="수원로고" class="logo">
+                        <img src="./image/logo_text.png" alt="수원문구" class="logo">
+                    </a>
+                    <div class="hd_menu">
+                        <ul>
+                            <li>
+                                <a href="" class="hd_menu_a">한눈에 수원</a>
+                                <div class="hd_menu_div"></div>
+                                <ul class="hd_ul_sub">
+                                    <li><a href="" class="hd_menu_sub">메뉴</a></li>
+                                    <li><a href="" class="hd_menu_sub">메뉴</a></li>
+                                    <li><a href="" class="hd_menu_sub">메뉴</a></li>
+                                    <li><a href="" class="hd_menu_sub">메뉴</a></li>
+                                    <li><a href="" class="hd_menu_sub">메뉴</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="" class="hd_menu_a">축제/행사</a>
+                                <div class="hd_menu_div"></div>
+                                <ul class="hd_ul_sub">
+                                    <li><a href="" class="hd_menu_sub">메뉴</a></li>
+                                    <li><a href="" class="hd_menu_sub">메뉴</a></li>
+                                    <li><a href="" class="hd_menu_sub">메뉴</a></li>
+                                    <li><a href="" class="hd_menu_sub">메뉴</a></li>
+                                    <li><a href="" class="hd_menu_sub">메뉴</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="" class="hd_menu_a">역사/문화</a>
+                                <div class="hd_menu_div"></div>
+                                <ul class="hd_ul_sub">
+                                    <li><a href="" class="hd_menu_sub">메뉴</a></li>
+                                    <li><a href="" class="hd_menu_sub">메뉴</a></li>
+                                    <li><a href="" class="hd_menu_sub">메뉴</a></li>
+                                    <li><a href="" class="hd_menu_sub">메뉴</a></li>
+                                    <li><a href="" class="hd_menu_sub">메뉴</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="" class="hd_menu_a">여행 가이드</a>
+                                <div class="hd_menu_div"></div>
+                                <ul class="hd_ul_sub">
+                                    <li><a href="" class="hd_menu_sub">메뉴</a></li>
+                                    <li><a href="" class="hd_menu_sub">메뉴</a></li>
+                                    <li><a href="" class="hd_menu_sub">메뉴</a></li>
+                                    <li><a href="" class="hd_menu_sub">메뉴</a></li>
+                                    <li><a href="" class="hd_menu_sub">메뉴</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="" class="hd_menu_a">커뮤니티</a>
+                                <div class="hd_menu_div"></div>
+                                <ul class="hd_ul_sub">
+                                    <li><a href="" class="hd_menu_sub">메뉴</a></li>
+                                    <li><a href="" class="hd_menu_sub">메뉴</a></li>
+                                    <li><a href="" class="hd_menu_sub">메뉴</a></li>
+                                    <li><a href="" class="hd_menu_sub">메뉴</a></li>
+                                    <li><a href="" class="hd_menu_sub">메뉴</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hd_menu_side">
+                        <ul class="hd_ul_side">
+                            <li><a href="" class="hd_side_menu">로그인</a></li>
+                            <li><a href="" class="hd_side_menu">회원가입</a></li>
+                            <li><a href="" class="hd_side_menu">관련 사이트</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="p1_wrap">
+            <div class="page1">
+                <input type="radio" name="ra" id="ra1" class="ra" checked>
+                <input type="radio" name="ra" id="ra2" class="ra">
+                <input type="radio" name="ra" id="ra3" class="ra">
+                <div class="btn_box">
+                    <ul class="btn_wrap">
+                        <li><label for="ra1" class="p1_btn" id="p1_btn1"></label></li>
+                        <li><label for="ra2" class="p1_btn" id="p1_btn2"></label></li>
+                        <li><label for="ra3" class="p1_btn" id="p1_btn3"></label></li>
+                    </ul>
+                </div>
+                <ul class="p1_bg_box">
+                    <li>
+                        <img src="./image/main_img/hwaseong.jpg" alt="">
+                        <div class="p1_bg" id="p1_bg1">
+                            <h3>화성행궁</h3>
+                            <a href="">자세히보기</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./image/main_img/gwanggyo_park.jpg" alt="">
+                        <div class="p1_bg" id="p1_bg2">
+                            <h3>만석저수지</h3>
+                            <a href="">자세히보기</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./image/main_img/suwon_jazz_fes.jpg" alt="">
+                        <div class="p1_bg" id="p1_bg3">
+                            <h3>수원 재즈 페스티벌</h3>
+                            <a href="">자세히보기</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="p2_wrap">
+            <div class="page2">
+                <h3>관람과 체험</h3>
+                <div class="grid1">
+                    <ul class="row1">
+                        <li>
+                            <a href="" class="content">
+                                <img src="./image/visit/suwon-museum.png" alt="">
+                                <p class="tit">수원박물관</p>
+                                <p class="sub">수원의 유구한 역사</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="content">
+                                <img src="./image/visit/suwon_curtureday.jpg" alt="">
+                                <p class="tit">수원화성문화제</p>
+                                <p class="sub">역사적 정취가 깃든</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="row2">
+                        <li>
+                            <a href="" class="content">
+                                <img src="./image/visit/suwon_summer.png" alt="">
+                                <p>추천 관광 코스</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="content">
+                                <img src="./image/visit/suwon_gwangyopark.jpg" alt="">
+                                <p>수원광교공원</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="content">
+                                <img src="./image/visit/suwon_arboretum.png" alt="">
+                                <p>일월수목원</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="content">
+                                <img src="./image/visit/suwon_paldalmarket.png" alt="">
+                                <p>팔달문시장</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="content">
+                                <img src="./image/visit/suwon_music.png" alt="">
+                                <p>제1야외음악당</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="p3_wrap">
+            <div class="page3">
+                <h2>축제와 행사</h2>
+                <div class="p3_box">
+                    <div class="movie_grid_span">
+                        <a href="">
+                            <img src="./image/event/cal.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="movie_grid">
+                        <ul class="movie1">
+                            <li>
+                                <a href="">
+                                    <img src="./image/event/event01.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="./image/event/event02.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="./image/event/event03.jpg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="movie2">
+                            <li>
+                                <a href="">
+                                    <img src="./image/event/event04.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="./image/event/event05.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="./image/event/event06.jpg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p4_wrap">
+            <div class="page4">
+                <h3>빠른 메뉴</h3>
+                <div class="item">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="./image/quickmenu/main_all_icon1.png" alt="">
+                                <p>오시는 길</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./image/quickmenu/main_all_icon2.png" alt="">
+                                <p>관람 코스</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./image/quickmenu/main_all_icon3.png" alt="">
+                                <p>관람 안내도</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./image/quickmenu/main_all_icon4.png" alt="">
+                                <p>행사 정보</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./image/quickmenu/main_all_icon5.png" alt="">
+                                <p>관람 시간</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./image/quickmenu/main_all_icon6.png" alt="">
+                                <p>해설 안내</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./image/quickmenu/main_all_icon7.png" alt="">
+                                <p>게시판</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="ft">
+        <div class="wrap">
+            <div class="container">
+                <ul class="footer_menu">
+                    <li>
+                        <input type="radio" name="footer_menu_main" id="footer_menu_1">
+                        <label for="footer_menu_1">수원문화재단</label>
+                        <ul class="footer_menu_sub" id="footer_menu_sub_1">
+                            <li><a href="http://suwonskartrium.or.kr/">수원SK아트리움</a></li>
+                            <li><a href="http://www.swcf.or.kr/swdb/">수원문화지도</a></li>
+                            <li><a href="https://www.swmedia.or.kr/">수원시미디어센터</a></li>
+                            <li><a href="https://www.swcf.or.kr/111CM/">111CM</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="radio" name="footer_menu_main" id="footer_menu_2">
+                        <label for="footer_menu_2">문화예술기관</label>
+                        <ul class="footer_menu_sub" id="footer_menu_sub_2">
+                            <li><a href="http://kto.visitkorea.or.kr/">한국관광공사</a></li>
+                            <li><a href="http://www.mcst.go.kr/">문화체육관광부</a></li>
+                            <li><a href="http://blog.naver.com/suwonfaa">한국미술협회 수원지부</a></li>
+                            <li><a href="http://www.ggcf.or.kr/">경기문화재단</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="radio" name="footer_menu_main" id="footer_menu_3">
+                        <label for="footer_menu_3">유관기관</label>
+                        <ul class="footer_menu_sub" id="footer_menu_sub_3">
+                            <li><a href="http://www.suwon.go.kr/">수원시청</a></li>
+                            <li><a href="http://council.suwon.go.kr/">수원시의회</a></li>
+                            <li><a href="http://www.suwonsarang.com/">수원문화원</a></li>
+                            <li><a href="http://www.artsuwon.org/">수원예총</a>수원예총</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="radio" name="footer_menu_main" id="footer_menu_4">
+                        <label for="footer_menu_4">협력기관</label>
+                        <ul class="footer_menu_sub" id="footer_menu_sub_4">
+                            <li><a href="http://www.kookmin.ac.kr/">국민대학교</a></li>
+                            <li><a href="http://www.ggtour.or.kr/">경기관광공사</a></li>
+                            <li><a href="http://www.suwon.ac.kr/">수원대학교</a></li>
+                            <li><a href="http://www.imbc.com/">MBC경인지사</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="footer_banner">
+                    <li><a href="" target="_blank"><img src="./image/banner/jeongbu24.png" alt=""
+                                class="footer_ban"></a></li>
+                    <li><a href="" target="_blank"><img src="./image/banner/bokgiro.png" alt="" class="footer_ban"></a>
+                    </li>
+                    <li><a href="" target="_blank"><img src="./image/banner/gyoenggi_tourism.png" alt=""
+                                class="footer_ban"></a></li>
+                    <li><a href="" target="_blank"><img src="./image/banner/gyoenggi_munhwa.png" alt=""
+                                class="footer_ban"></a></li>
+                    <li><a href="" target="_blank"><img src="./image/banner/gyoenggi_edu.png" alt=""
+                                class="footer_ban"></a></li>
+                </ul>
+                <ul class="footer_txt_ul">
+                    <li><a href="" class="footer_txt">저작권정책</a></li>
+                    <li><a href="" class="footer_txt">개인정보 처리방침</a></li>
+                    <li><a href="" class="footer_txt">찾아오시는길</a></li>
+                    <li><a href="" class="footer_txt">청사안내</a></li>
+                </ul>
+                <h6 class="footer_txt_copy">(우편번호:16490) 경기도 수원시 팔달구 효원로 241(인계동)</h6>
+                <h6 class="footer_txt_copy">COPYRIGHT 2022 SUWON SPECIAL CITY. ALL RIGHTS RESERVED.</h6>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
