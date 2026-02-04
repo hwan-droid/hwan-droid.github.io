@@ -4,7 +4,62 @@
     padding-top: 90px;
 }
 
-.test {
-    height: 1000px;
-    background-color: black;
+#vs {
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+    position: relative;
+}
+
+#vs .slide_box {
+    display: flex;
+    width: 400%;
+    height: 100%;
+
+}
+
+#vs .slide {
+    width: 25%;
+    height: 100%;
+}
+
+#vs .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.tit_box {
+    position: absolute;
+    top: 180px;
+    width: 100%;
+    left: 40px;
+    color: #FFA500;
+}
+
+.tit_box h1 {
+    display: block;
+    text-align: center;
+    font-family: 'JejuH';
+    text-shadow: 2px 2px 0 #D9BF73, 4px 4px 0 #3D2B1F;
+}
+
+.tit_box span {
+    float: left;
+}
+
+.tit_box h3 {
+    text-align: center;
+    font-family: 'JejuH';
+    text-shadow: 2px 2px 0 #D9BF73, 4px 4px 0 #3D2B1F;
+    padding-bottom: 0;
+}
+
+.tit_box h4 {
+    text-align: center;
+    font-family: 'JejuH';
+    text-shadow: 2px 2px 0 #D9BF73, 4px 4px 0 #3D2B1F;
+    padding-top: 0;
 }
