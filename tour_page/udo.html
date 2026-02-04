@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,16 +10,18 @@
     <link rel="stylesheet" href="/css/font1.css">
     <link rel="stylesheet" href="/css/common.css">
     <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/main1.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/sub_common.css">
+    <link rel="stylesheet" href="/css/udo.css">
 </head>
+
 <body>
     <div class="wrap">
         <!-- header영역 -->
         <header id="hd">
             <div class="container">
-                <a href="/" class="log"><img src="/images/J_logo.png" alt=""><img src="/images/logo_tt.png" alt=""></a>
+                <a href="/index.html" class="log"><img src="/images/J_logo.png" alt=""><img src="/images/logo_tt.png"
+                        alt=""></a>
                 <nav class="gnb">
                     <ul class="menu">
                         <li>
@@ -41,7 +44,7 @@
                                 <li><a href="#">섭지코지</a></li>
                                 <li><a href="">성산일출봉</a></li>
                                 <li><a href="">정방폭포</a></li>
-                                <li><a href="sub1_5">음식</a></li>
+                                <li><a href="">음식</a></li>
                             </ul>
                         </li>
                         <li>
@@ -79,19 +82,19 @@
                 </nav>
                 <nav class="tnb">
                     <div class="tnb_con">
-                        <a href="login.html" class="tnb_bg1">
+                        <a href="/login.html" class="tnb_bg1">
                             <img src="/images/icon16.png" alt="감귤">
                             <span>로그인</span>
                         </a>
                     </div>
                     <div class="tnb_con">
-                        <a href="join.html" class="tnb_bg2">
+                        <a href="/join.html" class="tnb_bg2">
                             <img src="/images/icon5.png" alt="땅콩">
                             <span>회원가입</span>
                         </a>
                     </div>
                     <div class="tnb_con">
-                        <a href="contact_us.html" class="tnb_bg3">
+                        <a href="/contact_us.html" class="tnb_bg3">
                             <img src="/images/icon4.png" alt="돌하르방">
                             <span>Contact US</span>
                         </a>
@@ -101,91 +104,46 @@
         </header>
         <!-- Main 영역 -->
         <main id="main">
-            <!-- 슬라이드 영역 -->
-            <figure id="vs">
-                <input type="radio" id="s01" name="ra" class="ra" checked>
-                <input type="radio" id="s02" name="ra" class="ra">
-                <input type="radio" id="s03" name="ra" class="ra">
-                <input type="radio" id="s04" name="ra" class="ra">
-                <div class="slide_box">
-                    <div class="slide">
-                        <img src="/images/vs01.png" alt="성산일출봉">
-                        <div class="tit_box">
-                            <h1><span class="slide_tit_1">33</span><span class="slide_tit_2">th</span></h1>
-                            <h3>성산일출축제</h3>
-                            <h4>2025.12.31 ~ 2026.01.01</h4>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <img src="/images/vs02.png" alt="">
-                        <div class="tit_box">
-                            <h1><span class="slide_tit_1">33</span><span class="slide_tit_2">th</span></h1>
-                            <h3>성산일출축제</h3>
-                            <h4>2025.12.31 ~ 2026.01.01</h4>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <img src="/images/vs03.png" alt="우도">
-                    </div>
-                    <div class="slide">
-                        <img src="/images/vs04.png" alt="정방폭포">
-                    </div>
+            <div class="bgi_con">
+                <img src="/images/bgi/bgi_hallasan3.jpg" alt="">
+                <div class="tit_con">
+                    <h2>여행</h2>
                 </div>
-                <div class="btn_box">
-                    <ul class="btn_wrap">
-                        <li><label for="s01" class="vs_btn" id="vs_btn1"></label></li>
-                        <li><label for="s02" class="vs_btn" id="vs_btn2"></label></li>
-                        <li><label for="s03" class="vs_btn" id="vs_btn3"></label></li>
-                        <li><label for="s04" class="vs_btn" id="vs_btn4"></label></li>
+            </div>
+            <div class="main_con">
+                <!-- tnb 메뉴 -->
+                <div class="sub_tnb_con">
+                    <ul>
+                        <li><a href="" id="udo">우도</a></li>
+                        <li><a href="">마라도</a></li>
+                        <li><a href="">추자도</a></li>
+                        <li><a href="">한라산국립공원</a></li>
+                        <li><a href="">섭지코지</a></li>
+                        <li><a href="">성산일출봉</a></li>
+                        <li><a href="">정방폭포</a></li>
+                        <li><a href="">음식</a></li>
                     </ul>
                 </div>
-            </figure>
-            <!-- 제주 여행지 영역 -->
-            <section class="page" id="page1">
-                <div class="page_wrap">
-                    <h2>제주 여행지</h2>
-                    <div class="page_grid">
-                        <div class="row1">
 
-                        </div>
-                    </div>        
-                </div>
-            </section>
-            <!-- 제주의 영상속으로 -->
-            <section class="page" id="page2">
-                <div class="page_wrap">
-                    <h2>제주의 영상속으로</h2>
-                    <div class="page_grid">
-                        <div class="row2">
-                            
-                        </div>
-                    </div>        
-                </div>
-            </section>
-            <!-- 축제와 행사 -->
-            <section class="page" id="page3">
-                <div class="page_wrap">
-                    <h2>축제와 행사</h2>
-                    <div class="page_grid">
-                        <div class="row3">
-                            
-                        </div>
-                    </div>        
-                </div>
-            </section>
-            <!-- 공지 -->
-            <section class="page" id="page4">
-                <div class="page_wrap">
-                    <h2>여기는 공지쪽인뎅...</h2>
-                    <div class="page_grid">
-                        <div class="row4">
-                            
-                        </div>
-                    </div>        
-                </div>
-            </section>
+                <!-- 메인 컨텐츠 -->
+                 <div class="page_tit">
+                    <h3>우도</h3>
+                    <h4>소가 누워있는 형상을 하고 있는 제주의 가장 큰 부속섬</h4>
+                 <img src="/images/jeju/island/udo1.webp" alt="">
+                 </div>
+                 <div class="page_content">
+                    <div class="content_menu_con">
+                        <ul>
+                            <li><a href="">설명</a></li>
+                            <li><a href="">지도</a></li>
+                            <li><a href="">사진</a></li>
+                            <li><a href="">리뷰</a></li>
+                        </ul>
+                    </div>
+                 </div>
+                 
+            </div>
         </main>
-        <!-- Footer 영역 -->
         <footer id="ft">
             <div class="container">
                 <nav id="banner_bar">
@@ -242,6 +200,10 @@
                 </div>
             </div>
         </footer>
+
+
+
     </div>
 </body>
+
 </html>
