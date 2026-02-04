@@ -41,6 +41,7 @@
 
 .gnb .menu {
     display: flex;
+    height: 90px;
     gap: 20px;
 }
 
