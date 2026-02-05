@@ -5,21 +5,7 @@
 }
 
 body {
-    font-family: 'ShillaG', sans-serif;
-    font-weight: 300;
     background-color: #F2F2F2;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Noto', sans-serif;
-    line-height: 1.6;
-    padding-top: 0.6em;
-    padding-bottom: 0.6em;
 }
 
 h1 {
@@ -37,11 +23,13 @@ h2 {
 h3 {
     font-weight: 700;
     font-size: 48px;
+    font-family: 'GyeonggiM';
 }
 
 h4 {
     font-weight: 600;
     font-size: 36px;
+    font-family: 'GyeonggiM';
 }
 
 h5 {
