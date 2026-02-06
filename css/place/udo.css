@@ -4,6 +4,14 @@
     color: #F27405;
 }
 
+h3 {
+    padding: 50px;
+}
+
+h4 {
+    padding: 40px;
+}
+
 .page_tit {
     width: 100%;
     text-align: center;
@@ -15,12 +23,6 @@
     text-align: center;
 }
 
-.page_tit h3,
-h4 {
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-
 .page_tit img {
     width: 80%;
     margin-top: 50px;
@@ -29,12 +31,8 @@ h4 {
 
 .page_content {
     width: 100%;
-    height: 800vh;
-    /* 높이는 추후 없애야함 */
     padding-top: 50px;
 }
-
-.content_menu_con {}
 
 #description,
 #map,
@@ -132,10 +130,6 @@ h4 {
     margin-bottom: 50px;
 }
 
-.map_con p {
-
-}
-
 .photo_slide_son {
     width: 100%;
     height: 800px;
@@ -146,6 +140,7 @@ h4 {
     display: flex;
     width: 7200px;
     margin-top: 30px;
+    transition: 0.6s;
 }
 
 .photo_con li {
@@ -231,9 +226,8 @@ h4 {
 
 .review_page_con {
     width: 100%;
-    height: 120vh;
-    border: 1px solid #333;
     background-color: #fff;
+    margin-bottom: 150px;
 }
 
 .review_con {
@@ -241,19 +235,15 @@ h4 {
     flex-direction: column;
     width: 100%;
     height: 100%;
-    border: 1px solid #333;
+    border-top: 1px solid #eee;
 }
 .review_con>li {
     display: flex;
     flex-direction: row;
     width: 100%;
-    border: 1px solid #333;
+    border-bottom: 1px solid #eee;
 }
 
-.review_detail_con {
-    height: 108px;
-    border: 1px solid #333;
-}
 .review_profile_con>img {
     width: 100px;
     height: auto;
@@ -269,7 +259,12 @@ h4 {
 }
 
 .review_detail_con:nth-child(3) {
-    width: 140px;
+    width: 200px;
+}
+
+.review_detail_con h6 {
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .review_detail_con>li:first-child {
@@ -278,21 +273,21 @@ h4 {
     width: 100%;
     height: 28px;
     margin-top: 8px;
-    margin-bottom: 4px;
-    border: 1px solid #333;
+    margin-bottom: 10px;
 }
 
 .review_detail_con>li:nth-child(2){
     width: 100%;
     height: auto;
     margin-top: 4px;
-    border: 1px solid #333;
+    line-height: 1.5em;
+    padding-right: 15px;
 }
 
 .review_detail_con>li:nth-child(3){
     width: 100%;
-    height: 100px;
-    border: 1px solid #333;
+    height: 150px;
+    margin-bottom: 10px;
 }
 
 .review_photo_con {
@@ -300,35 +295,41 @@ h4 {
     flex-direction: row;
     justify-content: left;
     width: 100%;
-    height: 100%;
+    height: 120px;
 }
 
 .review_photo_con li {
     margin-right: 10px;
     width: 144px;
     height: 108px;
+    padding-top: 50px;
 }
 
 .review_photo_con img {
-    width: 144px;
-    height: 108px;
+    width: 128px;
+    height: 96px;
     object-fit: cover;
     object-position: bottom;
 }
 
 .review_btn_con {
+    display: flex;
+    flex-direction: column;
+
     width: auto;
 }
 
 .review_btn_con a{
-    width: 80px;
-    border: 1px solid #333;
     display: flex;
     flex-direction: row;
+    font-family: 'GyeonggiB';
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    align-items: center;
     
 }
 
 .review_btn_con img{
     width: 50px;
-    
 }
