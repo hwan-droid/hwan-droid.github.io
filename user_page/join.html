@@ -112,12 +112,15 @@
                                 <h3>회원가입</h3>
                                 <form action="" id="join_form">
                                     <div class="join_agreement">
-                                        <div class="label_box">이용약관동의<span>*</span></div>
+                                        <div class="label_box_agree">이용약관동의<span>*</span></div>
                                         <div class="input_inner">
                                             <div class="check">
-                                                <div class="check_all">
-                                                    <input type="checkbox" id="all_agree" onclick="chk()"><label for="all_agree">전체 동의합니다.</label>
-                                                </div>
+                                                <ul class="check_all">
+                                                    <li>
+                                                        <input type="checkbox" id="all_agree" onclick="chk()">
+                                                        <label for="all_agree">전체 동의합니다.</label>
+                                                    </li>
+                                                </ul>
                                                 <ul class="check_choice">
                                                     <li>
                                                         <input type="checkbox" id="check_agree1" class="sub_agree" onclick="sub_chk(1)">
@@ -187,7 +190,7 @@
                                     <div class="form_row">
                                         <div class="label_box"><label for="">주소</label></div>
                                         <div class="input_inner">
-                                            <button type="button" class="btn_inline">주소 검색</button>
+                                            <input type="text" name="" id="user_addr" placeholder="주소를 입력하세요.">
                                         </div>
                                     </div>
                                     <div class="btn_con">
