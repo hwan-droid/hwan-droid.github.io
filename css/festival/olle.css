@@ -68,22 +68,33 @@
     margin-top:30px;
     margin-bottom: 30px;
 }
+.strong {
+    font-weight: 900;
+    color: #08b2f5;
+}
 .bold {
     font-weight: 700;
 }
-.grid_item_txt{
+
+.grid_item_txt2{
     width: 90%;
-    height: 60px;
-    margin: 60px;
-    line-height: 25px;
+    height: 120px;
+    margin: 0 60px;
+    padding: 0 30px;
+    line-height: 20px;
+    font-size: 20px;
 }
+
 .page_grid_txt3{
     margin: 0 30px;
 }
+
 .page_grid_txt4{
     margin: 0 30px;
 }
-
+.grid_item_txt2{
+    margin: 0 80px;
+}
 .video_title{
     text-align: left;
     font-weight: 500;
@@ -119,27 +130,31 @@
 }
 .video_thumb {
     position: relative;
-    display: inline-block;
 }
 
 .video_thumb img {
     display: block;
-    width: 500px;
+    width: 100%;
     height: 280px;
     border-radius: 15px;
-    object-fit: cover;
-    position: relative;
+    /* object-fit: cover; */
 }
 
-.video_thumb::before {
+.video_item a {
+    position: relative;
+    display: block;
+}
+
+.video_item a::before {
     content: "";
     position: absolute;
-    transform: translate(-50%, -50%);
-    width: 90px;
-    height: 50px;
-    background-image: url("../images/jeju/festival/btn_play.png");
+    top:0; right:0; bottom: 50px; left:0;
+    background-image: url("../../images/jeju/festival/btn_play.png");
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
+    background-size: 60px 60px;
+    z-index: 2;
+    pointer-events: none;
 }
 
 .video_text {
