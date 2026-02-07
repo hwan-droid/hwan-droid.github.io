@@ -116,7 +116,7 @@ video{
 }
 .page_con_bottom{
     width: 100%;
-    height: 630px;
+    height: 700px;
     text-align: center;
     padding: 0;
 }
@@ -147,8 +147,9 @@ video{
 }
 .row1 a, .row2 a {
     cursor: pointer;
+    font-size: 20px;
 }
-.page_con_bottom h6{
+.page_con_bottom h4{
     text-align: left;
     font-weight: 500;
     margin-bottom: 10px;
