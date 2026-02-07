@@ -78,6 +78,7 @@
     border: 2px solid #03A66A;
 }
 
+<<<<<<< HEAD
 .pagination {
     display: flex;
     justify-content: center;
@@ -100,4 +101,8 @@
     background: #FFA500;
     color: #fff;
     border-color: #FFA500;
+=======
+.active {
+    color: #F27405;
+>>>>>>> origin/develop
 }
